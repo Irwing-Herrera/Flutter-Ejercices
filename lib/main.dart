@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
  Widget build(BuildContext context) {
   return new Scaffold(
     appBar: new AppBar(
-      title: new Text("AppBar"),
+      title: new Text("AppBar Flutter"),
       backgroundColor: Colors.indigoAccent,
     ),  
     body: new Container(
