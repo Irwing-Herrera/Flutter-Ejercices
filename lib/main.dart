@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   return new Scaffold(
     appBar: new AppBar(
       title: new Text("AppBar Flutter"),
-      backgroundColor: Colors.indigoAccent,
+      backgroundColor: Colors.black,
     ),  
     body: new Container(
       child: new Row(
