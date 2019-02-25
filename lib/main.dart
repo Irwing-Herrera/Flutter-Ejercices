@@ -18,7 +18,11 @@ class MyApp extends StatelessWidget {
       child: new Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          new Text("data")
+          new RaisedButton(
+            child: new Text("Da click"),
+            color: Colors.greenAccent,
+            onPressed: () {},
+          )
         ],
       ),
     ),
