@@ -19,8 +19,9 @@ class MyApp extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           new RaisedButton(
-            child: new Text("Da click"),
-            color: Colors.greenAccent,
+            child: new Text("Actualizado"),
+            color: Colors.redAccent,
+            textColor: Colors.white,
             onPressed: () {},
           )
         ],
